@@ -1,95 +1,139 @@
+<<<<<<< HEAD
 #  Azure Intro Tutorial: Resource Group, Storage Account, and Blob Upload
+=======
+# Azure Storage Account Tutorial (High-Level)
+>>>>>>> 468feeb (Added updated tutorial with screenshots)
 
-This high-level guide walks you through the essential steps to get started with Microsoft Azure, including creating a **Resource Group**, a **Storage Account**, and a **Blob Container**, and uploading a simple file to it.
-
----
-
-## 🧰 Prerequisites
-
-- A free Microsoft Azure account  
-  👉 [Sign up here](https://azure.microsoft.com/en-us/free/)
-- A valid credit/debit card (for identity verification only)
-- Use a **personal Microsoft account** (not work/school)
+This repository provides a high-level, beginner-friendly walkthrough for creating an Azure Storage Account and uploading files using the Azure Portal. It includes step-by-step instructions and helpful screenshots.
 
 ---
 
+## 🧾 Prerequisites
+
+- A Microsoft Azure account ([Sign up here](https://azure.microsoft.com/en-us/free))
+- A browser and internet connection
+- No coding experience required
+
+---
+
+<<<<<<< HEAD
 ##  Step 1: Create a Resource Group
+=======
+## 🚀 Step-by-Step Tutorial
+>>>>>>> 468feeb (Added updated tutorial with screenshots)
 
-1. Go to the [Azure Portal](https://portal.azure.com)
-2. In the top search bar, type **"Resource Groups"**
-3. Click **Create**
-4. Fill in:
-   - **Subscription** (select the default or free subscription)
-   - **Resource Group Name** (e.g., `my-resource-group`)
-   - **Region** (e.g., `East US 2`)
-5. Click **Review + Create**, then **Create**
+### 1. Choose Your Azure Account
+
+Sign in and choose an Azure Free or Pay-As-You-Go account.
+
+![Azure Free vs Pay-as-you-go](./screenshots/Azure-Screenshot-1.png)
 
 ---
 
+<<<<<<< HEAD
 ##  Step 2: Create a Storage Account
+=======
+### 2. Go to the Azure Portal Dashboard
+>>>>>>> 468feeb (Added updated tutorial with screenshots)
 
-1. In the Azure search bar, type **"Storage Accounts"**
+This is your home screen in Azure.
+
+![Azure Portal Homepage](./screenshots/Azure-Screenshot-2.png)
+
+---
+
+### 3. Create a Resource Group
+
+Resource groups organize your Azure resources.
+
+1. Click "Resource groups"
 2. Click **Create**
-3. Under the **Basics** tab:
-   - **Subscription**: your active one
-   - **Resource Group**: select the one you just created
-   - **Storage account name**: must be globally unique
-   - **Region**: same as the Resource Group
-4. Leave other settings at default and click **Review + Create**, then **Create**
+3. Choose your subscription and region
+4. Enter a name like `Lab-Test-Tony`
+
+![View Resource Groups](./screenshots/Azure-Screenshot-3.png)
+![Create a Resource Group](./screenshots/Azure-Screenshot-4.png)
+![Enter Name for Resource Group](./screenshots/Azure-Screenshot-5.png)
+![Optional Tags](./screenshots/Azure-Screenshot-6.png)
+![Review and Create](./screenshots/Azure-Screenshot-7.png)
+![Confirmation](./screenshots/Azure-Screenshot-8.png)
 
 ---
 
+<<<<<<< HEAD
 ##  Step 3: Create and Upload a File
+=======
+### 4. Start Creating a Storage Account
+>>>>>>> 468feeb (Added updated tutorial with screenshots)
 
-### On Mac:
-- Open **TextEdit**, change format to **Plain Text** (TextEdit > Settings > Format)
-- Create a new file with the content:
-  ```
-  Hello
-  ```
-- Save it as `Azure-Lab.txt` on your desktop
+From your new resource group, click **Create**, then **Storage Account**.
 
-### On Windows:
-- Open **Notepad**
-- Type `Hello`
-- Save as `Azure-Lab.txt` on your desktop
+![Resource Group Overview](./screenshots/Azure-Screenshot-9.png)
+![Start Storage Account Creation](./screenshots/Azure-Screenshot-10.png)
 
 ---
 
+<<<<<<< HEAD
 ##  Step 4: Create a Blob Container and Upload
+=======
+### 5. Fill Out the Storage Account Details
+>>>>>>> 468feeb (Added updated tutorial with screenshots)
 
-1. In Azure Portal, go to your **Storage Account**
-2. Under **Data Storage**, click **Containers**
-3. Click **+ Container**, give it a name (e.g., `lab-test`), then click **Create**
-4. Open the container and click **Upload**
-5. Upload the `Azure-Lab.txt` file you created
+- Choose subscription and resource group
+- Enter a storage account name (e.g., `tonycoursecareers123`)
+- Choose **Locally-redundant storage (LRS)** for replication
+
+![Fill Out Basic Info](./screenshots/Azure-Screenshot-11.png)
+![Review Storage Account Settings](./screenshots/Azure-Screenshot-12.png)
 
 ---
 
+<<<<<<< HEAD
 ##  Step 5: Edit and Verify the File
+=======
+### 6. Create and Deploy
+>>>>>>> 468feeb (Added updated tutorial with screenshots)
 
-1. Inside the container, click on your uploaded file
-2. Choose **Edit**, replace "Hello" with "Goodbye"
-3. Save the changes
-4. Download the file to your desktop to confirm the updated content
+Click **Create** and watch the deployment.
+
+![Deployment in Progress](./screenshots/Azure-Screenshot-13.png)
+![Deployment Complete](./screenshots/Azure-Screenshot-14.png)
 
 ---
 
+<<<<<<< HEAD
 ##  You're Done!
+=======
+### 7. Upload Files to Your Storage Account
+>>>>>>> 468feeb (Added updated tutorial with screenshots)
 
-You’ve created a full storage workflow in Azure:
-- ✔ Resource Group
-- ✔ Storage Account
-- ✔ Container
-- ✔ Uploaded and edited a blob
+1. Go to your storage account
+2. Choose **Containers**, then create or use a container
+3. Upload a file
 
----
-
-## 📎 Optional Next Steps
-
-- Explore access tiers and redundancy options in Storage Account settings
-- Try connecting with Azure CLI or Storage Explorer for more advanced workflows
+![Blob Uploaded](./screenshots/Azure-Screenshot-20.png)
+![View Uploaded File Content](./screenshots/Azure-Screenshot-21.png)
 
 ---
 
-*Created as part of an introductory Azure learning project.*
+## ✅ You're Done!
+
+You've now successfully:
+- Created a resource group
+- Created and deployed a storage account
+- Uploaded a file into Azure Blob Storage
+
+---
+
+## 📂 Folder Structure
+
+```
+azure-storage-tutorial/
+├── README.md
+└── screenshots/
+    ├── Azure-Screenshot-1.png
+    ├── Azure-Screenshot-2.png
+    └── ... etc.
+```
+
+Feel free to clone this repo, reuse the guide, and continue building your Azure skills!
