@@ -12,11 +12,12 @@ This repository provides a high-level, beginner-friendly walkthrough for creatin
 
 ---
 
-## 🚀 Step-by-Step Tutorial
+##  Step-by-Step Tutorial
 
 ### 1. Choose Your Azure Account
 
 Sign in and choose an Azure Free or Pay-As-You-Go account.
+Be sure to use a personal account (Not your school or work account)
 
 <img src="images/Azure%20Screenshot%201.png" alt="Azure Free vs Pay-as-you-go" width="500"/>
 
@@ -37,7 +38,7 @@ Resource groups organize your Azure resources.
 1. Click "Resource groups"
 2. Click **Create**
 3. Choose your subscription and region
-4. Enter a name like `Lab-Test-Tony`
+4. Enter a name like `Lab-Test-Tony` or any name that you'd like to use
 
 <img src="images/Azure%20Screenshot%203.png" alt="View Resource Groups" width="500"/>
 <img src="images/Azure%20Screenshot%204.png" alt="Create a Resource Group" width="500"/>
