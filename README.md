@@ -18,7 +18,7 @@ This repository provides a high-level, beginner-friendly walkthrough for creatin
 
 Sign in and choose an Azure Free or Pay-As-You-Go account.
 
-![Azure Free vs Pay-as-you-go](images/Azure%20Screenshot%201.png)
+<img src="images/Azure%20Screenshot%201.png" alt="Azure Free vs Pay-as-you-go" width="500"/>
 
 ---
 
@@ -26,7 +26,7 @@ Sign in and choose an Azure Free or Pay-As-You-Go account.
 
 This is your home screen in Azure.
 
-![Azure Portal Homepage](images/Azure%20Screenshot%202.png)
+<img src="images/Azure%20Screenshot%202.png" alt="Azure Portal Homepage" width="500"/>
 
 ---
 
@@ -39,12 +39,12 @@ Resource groups organize your Azure resources.
 3. Choose your subscription and region
 4. Enter a name like `Lab-Test-Tony`
 
-![View Resource Groups](images/Azure%20Screenshot%203.png)
-![Create a Resource Group](images/Azure%20Screenshot%204.png)
-![Enter Name for Resource Group](images/Azure%20Screenshot%205.png)
-![Optional Tags](images/Azure%20Screenshot%206.png)
-![Review and Create](images/Azure%20Screenshot%207.png)
-![Confirmation](images/Azure%20Screenshot%208.png)
+<img src="images/Azure%20Screenshot%203.png" alt="View Resource Groups" width="500"/>
+<img src="images/Azure%20Screenshot%204.png" alt="Create a Resource Group" width="500"/>
+<img src="images/Azure%20Screenshot%205.png" alt="Enter Name for Resource Group" width="500"/>
+<img src="images/Azure%20Screenshot%206.png" alt="Optional Tags" width="500"/>
+<img src="images/Azure%20Screenshot%207.png" alt="Review and Create" width="500"/>
+<img src="images/Azure%20Screenshot%208.png" alt="Confirmation" width="500"/>
 
 ---
 
@@ -52,8 +52,8 @@ Resource groups organize your Azure resources.
 
 From your new resource group, click **Create**, then **Storage Account**.
 
-![Resource Group Overview](images/Azure%20Screenshot%209.png)
-![Start Storage Account Creation](images/Azure%20Screenshot%2010.png)
+<img src="images/Azure%20Screenshot%209.png" alt="Resource Group Overview" width="500"/>
+<img src="images/Azure%20Screenshot%2010.png" alt="Start Storage Account Creation" width="500"/>
 
 ---
 
@@ -63,8 +63,8 @@ From your new resource group, click **Create**, then **Storage Account**.
 - Enter a storage account name (e.g., `tonycoursecareers123`)
 - Choose **Locally-redundant storage (LRS)** for replication
 
-![Fill Out Basic Info](images/Azure%20Screenshot%2011.png)
-![Review Storage Account Settings](images/Azure%20Screenshot%2012.png)
+<img src="images/Azure%20Screenshot%2011.png" alt="Fill Out Basic Info" width="500"/>
+<img src="images/Azure%20Screenshot%2012.png" alt="Review Storage Account Settings" width="500"/>
 
 ---
 
@@ -72,8 +72,8 @@ From your new resource group, click **Create**, then **Storage Account**.
 
 Click **Create** and watch the deployment.
 
-![Deployment in Progress](images/Azure%20Screenshot%2013.png)
-![Deployment Complete](images/Azure%20Screenshot%2014.png)
+<img src="images/Azure%20Screenshot%2013.png" alt="Deployment in Progress" width="500"/>
+<img src="images/Azure%20Screenshot%2014.png" alt="Deployment Complete" width="500"/>
 
 ---
 
@@ -83,8 +83,8 @@ Click **Create** and watch the deployment.
 2. Choose **Containers**, then create or use a container
 3. Upload a file
 
-![Blob Uploaded](images/Azure%20Screenshot%2020.png)
-![View Uploaded File Content](images/Azure%20Screenshot%2021.png)
+<img src="images/Azure%20Screenshot%2020.png" alt="Blob Uploaded" width="500"/>
+<img src="images/Azure%20Screenshot%2021.png" alt="View Uploaded File Content" width="500"/>
 
 ---
 
