@@ -89,7 +89,7 @@ Click **Create** and watch the deployment.
 
 ---
 
-## ✅ You're Done!
+##  You're Done!
 
 You've now successfully:
 - Created a resource group
@@ -98,7 +98,7 @@ You've now successfully:
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 azure-storage-tutorial/
