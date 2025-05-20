@@ -1,4 +1,4 @@
-# 🌐 Azure Intro Tutorial: Resource Group, Storage Account, and Blob Upload
+#  Azure Intro Tutorial: Resource Group, Storage Account, and Blob Upload
 
 This high-level guide walks you through the essential steps to get started with Microsoft Azure, including creating a **Resource Group**, a **Storage Account**, and a **Blob Container**, and uploading a simple file to it.
 
@@ -75,7 +75,7 @@ This high-level guide walks you through the essential steps to get started with 
 
 ---
 
-## 🏁 You're Done!
+##  You're Done!
 
 You’ve created a full storage workflow in Azure:
 - ✔ Resource Group
