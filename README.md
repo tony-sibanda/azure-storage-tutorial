@@ -13,7 +13,7 @@ This high-level guide walks you through the essential steps to get started with 
 
 ---
 
-## ✅ Step 1: Create a Resource Group
+##  Step 1: Create a Resource Group
 
 1. Go to the [Azure Portal](https://portal.azure.com)
 2. In the top search bar, type **"Resource Groups"**
@@ -26,7 +26,7 @@ This high-level guide walks you through the essential steps to get started with 
 
 ---
 
-## ✅ Step 2: Create a Storage Account
+##  Step 2: Create a Storage Account
 
 1. In the Azure search bar, type **"Storage Accounts"**
 2. Click **Create**
@@ -39,7 +39,7 @@ This high-level guide walks you through the essential steps to get started with 
 
 ---
 
-## ✅ Step 3: Create and Upload a File
+##  Step 3: Create and Upload a File
 
 ### On Mac:
 - Open **TextEdit**, change format to **Plain Text** (TextEdit > Settings > Format)
@@ -56,7 +56,7 @@ This high-level guide walks you through the essential steps to get started with 
 
 ---
 
-## ✅ Step 4: Create a Blob Container and Upload
+##  Step 4: Create a Blob Container and Upload
 
 1. In Azure Portal, go to your **Storage Account**
 2. Under **Data Storage**, click **Containers**
@@ -66,7 +66,7 @@ This high-level guide walks you through the essential steps to get started with 
 
 ---
 
-## ✅ Step 5: Edit and Verify the File
+##  Step 5: Edit and Verify the File
 
 1. Inside the container, click on your uploaded file
 2. Choose **Edit**, replace "Hello" with "Goodbye"
